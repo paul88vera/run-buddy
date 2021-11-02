@@ -12,11 +12,11 @@
             <a href="/">RUN BUDDY</a>
         </h1>
         <nav>
-            <!-- Unordered List Element -->
+            <!-- Unordered List Ele -->
             <ul>
-                <!-- List Item Element -->
+                <!-- List Item Ele -->
                 <li>
-                    <!-- Anchor Element -->
+                    <!-- Anchor Ele -->
                     <a href="#what-we-do">What We Do</a>
                 </li>
                 <li>
@@ -34,7 +34,36 @@
 
 <!-- hero/jumbotron -->
 <section>
+    <div>
+        <h3>Get Started today</h3>
+        <p>Fill out this form and one of our trainers will schedule a consult</p>
+        <form>
+            <label for="name">Enter full name:</label>
+            <input type="text" placeholder="Your Name" name="name" id="name"/>
+            <label for="email">Enter email address:</label>
+            <input type="email" placeholder="Email Address" name="email" id="email"/>
+            <label for="phone">Enter a telephone number:</label>
+            <input type="tel" placeholder="Phone Number" name="phone" id="phone"/>
+            <p>
+                Have you worked out with a trainer before?
+                <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                <label for="trainer-yes">Yes</label>
+                <input type="radio" name="trainer-confirm" id="trainer-no" />
+                <label for="trainer-no">No</label>
+            </p>
+            <p>
+                <label for="acknowledge">
+                I acknowledge that I am at least 18 years of age.
+                </label>
+                <input type="checkbox" name="acknowledge" id="acknowledge" />
+            </p>
+            <button type="submit">
+                Get Running!
+            </button>
+        </form>
+    </div>
 </section>
+<!-- end hero -->
 
 <!-- "What we do" section -->
 <section>
