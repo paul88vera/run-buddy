@@ -1,5 +1,9 @@
 # Run Buddy, Inc
 
+![Screenshot]()
+![Screenshot]()
+1[Screenshot]()
+
 ## Purpose
 A website that offers fitness training services. 
 
@@ -8,7 +12,7 @@ A website that offers fitness training services.
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+https://paul88vera.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by [Paul Vera]
